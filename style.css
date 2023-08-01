@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.rv{
+    height: 100vh;
+    width: 100%;
+    background-image: url(realidad_virtual.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.texto_realidad_virtual{
+    position: relative;
+    top: 10rem;
+    left: 3rem;
+    width: 35vw;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: #a05195;
+    font-family:'Oxygen Mono', monospace;
+}
+
+.rv .texto_realidad_virtual p{
+    font-size: 15px;
+    color: #7b7368;
+    padding-top: 1.5rem;
+}
+
+.origen{
+    margin: 1rem 2rem;
+    display: flex;
+    height: 100vh;
+}
+
+.texto_origen{
+    width: 50vw;
+    padding: 0 3rem;
+}
+
+h2{
+    font-family:'Oxygen Mono', monospace;
+    font-size: 3.4rem;
+
+}
+.texto_origen h2{
+    color: #00d4fee5;
+    margin-bottom: 1rem;
+}
+
+.texto_origen p{
+    font-size: 18px;
+    color: #242424e5;
+    margin-top: 0.8rem;
+}
+
+.img_origen img{
+    padding-left: 4rem;
+    position: relative;
+    top: 5.7rem;
+    height: 450px;
+}
+
+.usos{
+    background-color: #00d4fee5;
+    position: relative;
+    height: 35vw;
+}
+
+.texto_usos{
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+.texto_usos h2{
+    color: #fff;
+    padding-left: 1rem;
+}
+
+.contenedor_t{
+    display: flex;
+}
+
+.contenedor_t .texto{
+    display: flex;
+    width: 25vw;
+    margin: 1rem 2.5rem;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 0.8rem;
+}
+
+.ventajas{
+    padding: 2rem;
+}
+
+ul{
+    margin: 2rem;
+}
+
+li{
+    margin: 0.5rem;
+    font-size: 16px;
+}
+li::marker{
+    list-style-type: circle;
+    color: #a05195;
+}
+.ventajas h2{
+    margin: 0.5rem;
+    color: #0098fee5;
+}
+
+
+.virtual_vs_aumentada{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+.contenedor{
+    position: relative;
+    width: 50vw;
+    height: auto;
+    margin: 4rem 0;
+    padding: 2.5rem;
+}
+.virtual{
+    border-right: #00d4fee5 solid 9px ;
+}
+.contenedor h2 {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #a05195;
+}
+
+
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background-color: #310785;
+    height: 100%;
+    
+}
+
+.integrantes{
+    position: relative;
+    margin: 2.5rem;
+}
+
+.integrantes p{
+    margin: 1rem;
+    color: #fff;
+}
+
+.img_uptjaa{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+.uptjaa{
+    width: 200px;
+
+}
+
